@@ -32,9 +32,9 @@ This software package includes a stand-alone C library libvmaf and its wrapping 
   s.tvos.deployment_target = '9.0'
   s.watchos.deployment_target = '2.0'
 
-  s.source_files = 'vmaf/libvmaf/src/**/*.{h,c}', 'vmaf/libvmaf/include/**/*.h', 'generate/**/*.{h,c}'
+  s.source_files = 'vmaf/libvmaf/src/**/*.{h,c,cpp}', 'vmaf/libvmaf/include/**/*.h', 'generate/**/*.{h,c,cpp}'
   s.public_header_files = 'vmaf/libvmaf/include/**/*.h'
-  s.exclude_files = 'vmaf/libvmaf/src/x86', 'vmaf/libvmaf/src/ext', 'vmaf/libvmaf/src/compat', 'vmaf/libvmaf/src/feature/x86', 'vmaf/libvmaf/src/feature/common/convolution_avx.c'
+  s.exclude_files = 'vmaf/libvmaf/src/x86', 'vmaf/libvmaf/src/ext', 'vmaf/libvmaf/src/compat', 'vmaf/libvmaf/src/feature/x86', 'vmaf/libvmaf/src/feature/common/convolution_avx.c', 'vmaf/libvmaf/src/libvmaf.cpp'
   
   s.pod_target_xcconfig = {
     'USE_HEADERMAP' => 'NO',
