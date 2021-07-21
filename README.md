@@ -1,6 +1,6 @@
 # libvmaf + Xcode
 
-[![CI Status](http://img.shields.io/travis/SDWebImage/libvmaf-Xcode.svg?style=flat)](https://travis-ci.org/SDWebImage/libvmaf-Xcode)
+[![CI Status](http://img.shields.io/travis/SDWebImage/libvmaf-Xcode.svg?style=flat)](https://travis-ci.com/SDWebImage/libvmaf-Xcode)
 [![Version](https://img.shields.io/cocoapods/v/libvmaf.svg?style=flat)](http://cocoapods.org/pods/libvmaf)
 [![License](https://img.shields.io/cocoapods/l/libvmaf.svg?style=flat)](http://cocoapods.org/pods/libvmaf)
 [![Platform](https://img.shields.io/cocoapods/p/libvmaf.svg?style=flat)](http://cocoapods.org/pods/libvmaf)
