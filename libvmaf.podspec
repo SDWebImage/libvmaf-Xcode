@@ -41,4 +41,5 @@ This software package includes a stand-alone C library libvmaf and its wrapping 
     'HEADER_SEARCH_PATHS' => '$(inherited) ${PODS_ROOT}/libvmaf/vmaf/libvmaf/src ${PODS_TARGET_SRCROOT}/vmaf/libvmaf/src ${PODS_ROOT}/libvmaf/vmaf/libvmaf/src/feature ${PODS_TARGET_SRCROOT}/vmaf/libvmaf/src/feature ${PODS_ROOT}/libvmaf/vmaf/libvmaf/include ${PODS_TARGET_SRCROOT}/vmaf/libvmaf/include ${PODS_ROOT}/libvmaf/generate ${PODS_TARGET_SRCROOT}/generate'
   }
   s.preserve_paths = 'vmaf', 'generate'
+  s.libraries = 'c++'
 end
