@@ -142,6 +142,7 @@
 		32BB54C326A7FDFE00B4F240 /* vmaf_4k_v0.6.1.json.c in Sources */ = {isa = PBXBuildFile; fileRef = 32BB54BB26A7FDFE00B4F240 /* vmaf_4k_v0.6.1.json.c */; };
 		32BB54C526A7FDFE00B4F240 /* vmaf_v0.6.1.json.c in Sources */ = {isa = PBXBuildFile; fileRef = 32BB54BD26A7FDFE00B4F240 /* vmaf_v0.6.1.json.c */; };
 		32BB54C926A7FDFE00B4F240 /* vmaf_v0.6.1neg.json.c in Sources */ = {isa = PBXBuildFile; fileRef = 32BB54C126A7FDFE00B4F240 /* vmaf_v0.6.1neg.json.c */; };
+		32D57AA82A0646D900278FC8 /* cambi.c in Sources */ = {isa = PBXBuildFile; fileRef = 32D57AA72A0646D900278FC8 /* cambi.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -318,6 +319,7 @@
 		32BB54BF26A7FDFE00B4F240 /* vmaf_4k_v0.6.1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = vmaf_4k_v0.6.1.json; sourceTree = "<group>"; };
 		32BB54C026A7FDFE00B4F240 /* vmaf_b_v0.6.3.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = vmaf_b_v0.6.3.json; sourceTree = "<group>"; };
 		32BB54C126A7FDFE00B4F240 /* vmaf_v0.6.1neg.json.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = vmaf_v0.6.1neg.json.c; sourceTree = "<group>"; };
+		32D57AA72A0646D900278FC8 /* cambi.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cambi.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -468,6 +470,7 @@
 				325A1FE326A7D0060024B13C /* ansnr_tools.h */,
 				325A1FB926A7D0060024B13C /* ansnr.c */,
 				325A1FF426A7D0060024B13C /* ansnr.h */,
+				32D57AA72A0646D900278FC8 /* cambi.c */,
 				325A200A26A7D0060024B13C /* ciede.c */,
 				325A1FD126A7D0060024B13C /* common */,
 				325A1FBE26A7D0060024B13C /* feature_collector.c */,
@@ -799,6 +802,7 @@
 				325A239626A7D0070024B13C /* fex_ctx_vector.c in Sources */,
 				325A23C726A7D0070024B13C /* alignment.c in Sources */,
 				325A237826A7D0070024B13C /* log.c in Sources */,
+				32D57AA82A0646D900278FC8 /* cambi.c in Sources */,
 				325A23A226A7D0070024B13C /* float_vif.c in Sources */,
 				32BB54C526A7FDFE00B4F240 /* vmaf_v0.6.1.json.c in Sources */,
 				325A23CE26A7D0070024B13C /* integer_motion.c in Sources */,
