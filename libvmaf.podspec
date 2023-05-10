@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'libvmaf'
-  s.version          = '2.3.0'
+  s.version          = '2.3.1'
   s.summary          = 'VMAF is a perceptual video quality assessment algorithm developed by Netflix.'
 
 # This description is used to generate tags and improve search results.
