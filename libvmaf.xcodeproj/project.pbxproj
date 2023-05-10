@@ -15,9 +15,7 @@
 		325A237726A7D0070024B13C /* dict.c in Sources */ = {isa = PBXBuildFile; fileRef = 325A1F8026A7D0060024B13C /* dict.c */; };
 		325A237826A7D0070024B13C /* log.c in Sources */ = {isa = PBXBuildFile; fileRef = 325A1F8126A7D0060024B13C /* log.c */; };
 		325A237926A7D0070024B13C /* opt.c in Sources */ = {isa = PBXBuildFile; fileRef = 325A1F8226A7D0060024B13C /* opt.c */; };
-		325A237A26A7D0070024B13C /* darray.c in Sources */ = {isa = PBXBuildFile; fileRef = 325A1F8326A7D0060024B13C /* darray.c */; };
 		325A237B26A7D0070024B13C /* picture.h in Headers */ = {isa = PBXBuildFile; fileRef = 325A1F8426A7D0060024B13C /* picture.h */; };
-		325A237C26A7D0070024B13C /* debug.h in Headers */ = {isa = PBXBuildFile; fileRef = 325A1F8526A7D0060024B13C /* debug.h */; };
 		325A237F26A7D0070024B13C /* model.c in Sources */ = {isa = PBXBuildFile; fileRef = 325A1F8B26A7D0060024B13C /* model.c */; };
 		325A238026A7D0070024B13C /* cpu.c in Sources */ = {isa = PBXBuildFile; fileRef = 325A1F8C26A7D0060024B13C /* cpu.c */; };
 		325A238126A7D0070024B13C /* predict.h in Headers */ = {isa = PBXBuildFile; fileRef = 325A1F8D26A7D0060024B13C /* predict.h */; };
@@ -25,14 +23,10 @@
 		325A238326A7D0070024B13C /* fex_ctx_vector.h in Headers */ = {isa = PBXBuildFile; fileRef = 325A1F8F26A7D0060024B13C /* fex_ctx_vector.h */; };
 		325A238426A7D0070024B13C /* ref.c in Sources */ = {isa = PBXBuildFile; fileRef = 325A1F9026A7D0060024B13C /* ref.c */; };
 		325A238526A7D0070024B13C /* mem.c in Sources */ = {isa = PBXBuildFile; fileRef = 325A1F9126A7D0060024B13C /* mem.c */; };
-		325A238726A7D0070024B13C /* unpickle.h in Headers */ = {isa = PBXBuildFile; fileRef = 325A1F9526A7D0060024B13C /* unpickle.h */; };
-		325A238826A7D0070024B13C /* cpu_info.c in Sources */ = {isa = PBXBuildFile; fileRef = 325A1F9626A7D0060024B13C /* cpu_info.c */; };
 		325A238926A7D0070024B13C /* svm.h in Headers */ = {isa = PBXBuildFile; fileRef = 325A1F9726A7D0060024B13C /* svm.h */; };
 		325A238A26A7D0070024B13C /* output.h in Headers */ = {isa = PBXBuildFile; fileRef = 325A1F9826A7D0060024B13C /* output.h */; };
 		325A238C26A7D0070024B13C /* pdjson.h in Headers */ = {isa = PBXBuildFile; fileRef = 325A1F9A26A7D0060024B13C /* pdjson.h */; };
 		325A238D26A7D0070024B13C /* thread_pool.h in Headers */ = {isa = PBXBuildFile; fileRef = 325A1F9B26A7D0060024B13C /* thread_pool.h */; };
-		325A238F26A7D0070024B13C /* timer.h in Headers */ = {isa = PBXBuildFile; fileRef = 325A1F9D26A7D0060024B13C /* timer.h */; };
-		325A239026A7D0070024B13C /* darray.h in Headers */ = {isa = PBXBuildFile; fileRef = 325A1F9E26A7D0060024B13C /* darray.h */; };
 		325A239126A7D0070024B13C /* picture.c in Sources */ = {isa = PBXBuildFile; fileRef = 325A1F9F26A7D0060024B13C /* picture.c */; };
 		325A239226A7D0070024B13C /* dict.h in Headers */ = {isa = PBXBuildFile; fileRef = 325A1FA026A7D0060024B13C /* dict.h */; };
 		325A239326A7D0070024B13C /* opt.h in Headers */ = {isa = PBXBuildFile; fileRef = 325A1FA126A7D0060024B13C /* opt.h */; };
@@ -43,7 +37,6 @@
 		325A239B26A7D0070024B13C /* cpu.h in Headers */ = {isa = PBXBuildFile; fileRef = 325A1FAA26A7D0060024B13C /* cpu.h */; };
 		325A239C26A7D0070024B13C /* model.h in Headers */ = {isa = PBXBuildFile; fileRef = 325A1FAB26A7D0060024B13C /* model.h */; };
 		325A239D26A7D0070024B13C /* compute_vmaf.c in Sources */ = {isa = PBXBuildFile; fileRef = 325A1FAC26A7D0060024B13C /* compute_vmaf.c */; };
-		325A239E26A7D0070024B13C /* cpu_info.h in Headers */ = {isa = PBXBuildFile; fileRef = 325A1FAD26A7D0060024B13C /* cpu_info.h */; };
 		325A239F26A7D0070024B13C /* ssim.h in Headers */ = {isa = PBXBuildFile; fileRef = 325A1FAF26A7D0060024B13C /* ssim.h */; };
 		325A23A026A7D0070024B13C /* moment_options.h in Headers */ = {isa = PBXBuildFile; fileRef = 325A1FB026A7D0060024B13C /* moment_options.h */; };
 		325A23A126A7D0070024B13C /* feature_name.h in Headers */ = {isa = PBXBuildFile; fileRef = 325A1FB126A7D0060024B13C /* feature_name.h */; };
@@ -138,6 +131,11 @@
 		325A260426A7F99A0024B13C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 325A260326A7F99A0024B13C /* main.m */; };
 		325A260926A7FA390024B13C /* libvmaf.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 325A1DFA26A7CF7C0024B13C /* libvmaf.framework */; };
 		325A260A26A7FA390024B13C /* libvmaf.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 325A1DFA26A7CF7C0024B13C /* libvmaf.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		326387DB2A0B911900303B68 /* luminance_tools.h in Headers */ = {isa = PBXBuildFile; fileRef = 326387D62A0B911900303B68 /* luminance_tools.h */; };
+		326387DC2A0B911900303B68 /* mkdirp.c in Sources */ = {isa = PBXBuildFile; fileRef = 326387D72A0B911900303B68 /* mkdirp.c */; };
+		326387DD2A0B911900303B68 /* luminance_tools.c in Sources */ = {isa = PBXBuildFile; fileRef = 326387D82A0B911900303B68 /* luminance_tools.c */; };
+		326387DE2A0B911900303B68 /* mkdirp.h in Headers */ = {isa = PBXBuildFile; fileRef = 326387D92A0B911900303B68 /* mkdirp.h */; };
+		326387DF2A0B911900303B68 /* null.c in Sources */ = {isa = PBXBuildFile; fileRef = 326387DA2A0B911900303B68 /* null.c */; };
 		32BB54C226A7FDFE00B4F240 /* vmaf_b_v0.6.3.json.c in Sources */ = {isa = PBXBuildFile; fileRef = 32BB54BA26A7FDFE00B4F240 /* vmaf_b_v0.6.3.json.c */; };
 		32BB54C326A7FDFE00B4F240 /* vmaf_4k_v0.6.1.json.c in Sources */ = {isa = PBXBuildFile; fileRef = 32BB54BB26A7FDFE00B4F240 /* vmaf_4k_v0.6.1.json.c */; };
 		32BB54C526A7FDFE00B4F240 /* vmaf_v0.6.1.json.c in Sources */ = {isa = PBXBuildFile; fileRef = 32BB54BD26A7FDFE00B4F240 /* vmaf_v0.6.1.json.c */; };
@@ -189,9 +187,7 @@
 		325A1F8026A7D0060024B13C /* dict.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = dict.c; sourceTree = "<group>"; };
 		325A1F8126A7D0060024B13C /* log.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = log.c; sourceTree = "<group>"; };
 		325A1F8226A7D0060024B13C /* opt.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = opt.c; sourceTree = "<group>"; };
-		325A1F8326A7D0060024B13C /* darray.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = darray.c; sourceTree = "<group>"; };
 		325A1F8426A7D0060024B13C /* picture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = picture.h; sourceTree = "<group>"; };
-		325A1F8526A7D0060024B13C /* debug.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = debug.h; sourceTree = "<group>"; };
 		325A1F8B26A7D0060024B13C /* model.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = model.c; sourceTree = "<group>"; };
 		325A1F8C26A7D0060024B13C /* cpu.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cpu.c; sourceTree = "<group>"; };
 		325A1F8D26A7D0060024B13C /* predict.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = predict.h; sourceTree = "<group>"; };
@@ -199,14 +195,10 @@
 		325A1F8F26A7D0060024B13C /* fex_ctx_vector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fex_ctx_vector.h; sourceTree = "<group>"; };
 		325A1F9026A7D0060024B13C /* ref.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ref.c; sourceTree = "<group>"; };
 		325A1F9126A7D0060024B13C /* mem.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mem.c; sourceTree = "<group>"; };
-		325A1F9526A7D0060024B13C /* unpickle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = unpickle.h; sourceTree = "<group>"; };
-		325A1F9626A7D0060024B13C /* cpu_info.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cpu_info.c; sourceTree = "<group>"; };
 		325A1F9726A7D0060024B13C /* svm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = svm.h; sourceTree = "<group>"; };
 		325A1F9826A7D0060024B13C /* output.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = output.h; sourceTree = "<group>"; };
 		325A1F9A26A7D0060024B13C /* pdjson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pdjson.h; sourceTree = "<group>"; };
 		325A1F9B26A7D0060024B13C /* thread_pool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = thread_pool.h; sourceTree = "<group>"; };
-		325A1F9D26A7D0060024B13C /* timer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = timer.h; sourceTree = "<group>"; };
-		325A1F9E26A7D0060024B13C /* darray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = darray.h; sourceTree = "<group>"; };
 		325A1F9F26A7D0060024B13C /* picture.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = picture.c; sourceTree = "<group>"; };
 		325A1FA026A7D0060024B13C /* dict.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dict.h; sourceTree = "<group>"; };
 		325A1FA126A7D0060024B13C /* opt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = opt.h; sourceTree = "<group>"; };
@@ -217,7 +209,6 @@
 		325A1FAA26A7D0060024B13C /* cpu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cpu.h; sourceTree = "<group>"; };
 		325A1FAB26A7D0060024B13C /* model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = model.h; sourceTree = "<group>"; };
 		325A1FAC26A7D0060024B13C /* compute_vmaf.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = compute_vmaf.c; sourceTree = "<group>"; };
-		325A1FAD26A7D0060024B13C /* cpu_info.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cpu_info.h; sourceTree = "<group>"; };
 		325A1FAF26A7D0060024B13C /* ssim.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ssim.h; sourceTree = "<group>"; };
 		325A1FB026A7D0060024B13C /* moment_options.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = moment_options.h; sourceTree = "<group>"; };
 		325A1FB126A7D0060024B13C /* feature_name.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = feature_name.h; sourceTree = "<group>"; };
@@ -311,6 +302,11 @@
 		325A25FB26A7F6850024B13C /* config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = config.h; sourceTree = "<group>"; };
 		325A260126A7F99A0024B13C /* libvmafExample */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = libvmafExample; sourceTree = BUILT_PRODUCTS_DIR; };
 		325A260326A7F99A0024B13C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		326387D62A0B911900303B68 /* luminance_tools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = luminance_tools.h; sourceTree = "<group>"; };
+		326387D72A0B911900303B68 /* mkdirp.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mkdirp.c; sourceTree = "<group>"; };
+		326387D82A0B911900303B68 /* luminance_tools.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = luminance_tools.c; sourceTree = "<group>"; };
+		326387D92A0B911900303B68 /* mkdirp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mkdirp.h; sourceTree = "<group>"; };
+		326387DA2A0B911900303B68 /* null.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = null.c; sourceTree = "<group>"; };
 		32BB54BA26A7FDFE00B4F240 /* vmaf_b_v0.6.3.json.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = vmaf_b_v0.6.3.json.c; sourceTree = "<group>"; };
 		32BB54BB26A7FDFE00B4F240 /* vmaf_4k_v0.6.1.json.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = vmaf_4k_v0.6.1.json.c; sourceTree = "<group>"; };
 		32BB54BC26A7FDFE00B4F240 /* vmaf_v0.6.1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = vmaf_v0.6.1.json; sourceTree = "<group>"; };
@@ -413,9 +409,7 @@
 				325A1F8026A7D0060024B13C /* dict.c */,
 				325A1F8126A7D0060024B13C /* log.c */,
 				325A1F8226A7D0060024B13C /* opt.c */,
-				325A1F8326A7D0060024B13C /* darray.c */,
 				325A1F8426A7D0060024B13C /* picture.h */,
-				325A1F8526A7D0060024B13C /* debug.h */,
 				325A1F8B26A7D0060024B13C /* model.c */,
 				325A1F8C26A7D0060024B13C /* cpu.c */,
 				325A1F8D26A7D0060024B13C /* predict.h */,
@@ -423,14 +417,10 @@
 				325A1F8F26A7D0060024B13C /* fex_ctx_vector.h */,
 				325A1F9026A7D0060024B13C /* ref.c */,
 				325A1F9126A7D0060024B13C /* mem.c */,
-				325A1F9526A7D0060024B13C /* unpickle.h */,
-				325A1F9626A7D0060024B13C /* cpu_info.c */,
 				325A1F9726A7D0060024B13C /* svm.h */,
 				325A1F9826A7D0060024B13C /* output.h */,
 				325A1F9A26A7D0060024B13C /* pdjson.h */,
 				325A1F9B26A7D0060024B13C /* thread_pool.h */,
-				325A1F9D26A7D0060024B13C /* timer.h */,
-				325A1F9E26A7D0060024B13C /* darray.h */,
 				325A1F9F26A7D0060024B13C /* picture.c */,
 				325A1FA026A7D0060024B13C /* dict.h */,
 				325A1FA126A7D0060024B13C /* opt.h */,
@@ -441,7 +431,6 @@
 				325A1FAA26A7D0060024B13C /* cpu.h */,
 				325A1FAB26A7D0060024B13C /* model.h */,
 				325A1FAC26A7D0060024B13C /* compute_vmaf.c */,
-				325A1FAD26A7D0060024B13C /* cpu_info.h */,
 				325A1FAE26A7D0060024B13C /* feature */,
 				325A201026A7D0060024B13C /* libvmaf.c */,
 				325A201126A7D0060024B13C /* mem.h */,
@@ -472,6 +461,11 @@
 				325A1FF426A7D0060024B13C /* ansnr.h */,
 				32D57AA72A0646D900278FC8 /* cambi.c */,
 				325A200A26A7D0060024B13C /* ciede.c */,
+				326387D82A0B911900303B68 /* luminance_tools.c */,
+				326387D62A0B911900303B68 /* luminance_tools.h */,
+				326387D72A0B911900303B68 /* mkdirp.c */,
+				326387D92A0B911900303B68 /* mkdirp.h */,
+				326387DA2A0B911900303B68 /* null.c */,
 				325A1FD126A7D0060024B13C /* common */,
 				325A1FBE26A7D0060024B13C /* feature_collector.c */,
 				325A1FEF26A7D0060024B13C /* feature_collector.h */,
@@ -616,10 +610,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				325A23FD26A7D0070024B13C /* ref.h in Headers */,
-				325A239E26A7D0070024B13C /* cpu_info.h in Headers */,
 				325A239426A7D0070024B13C /* log.h in Headers */,
 				325A23F426A7D0070024B13C /* psnr_options.h in Headers */,
-				325A237C26A7D0070024B13C /* debug.h in Headers */,
 				325A23A626A7D0070024B13C /* adm.h in Headers */,
 				325A23ED26A7D0070024B13C /* iqa.h in Headers */,
 				325A23E626A7D0070024B13C /* ssim_tools.h in Headers */,
@@ -629,7 +621,6 @@
 				325A23EA26A7D0070024B13C /* math_utils.h in Headers */,
 				325A23F126A7D0070024B13C /* integer_vif.h in Headers */,
 				325A23E426A7D0070024B13C /* iqa_options.h in Headers */,
-				325A238726A7D0070024B13C /* unpickle.h in Headers */,
 				325A23AA26A7D0070024B13C /* motion_options.h in Headers */,
 				325A236F26A7D0070024B13C /* libvmaf.h in Headers */,
 				325A23F726A7D0070024B13C /* motion_tools.h in Headers */,
@@ -649,7 +640,6 @@
 				325A23F626A7D0070024B13C /* psnr_tools.h in Headers */,
 				325A23B426A7D0070024B13C /* offset.h in Headers */,
 				325A23DF26A7D0070024B13C /* vif_options.h in Headers */,
-				325A239026A7D0070024B13C /* darray.h in Headers */,
 				325A23B626A7D0070024B13C /* vif_tools.h in Headers */,
 				325A23AD26A7D0070024B13C /* alias.h in Headers */,
 				325A23D026A7D0070024B13C /* ansnr_tools.h in Headers */,
@@ -659,7 +649,7 @@
 				325A23DE26A7D0070024B13C /* feature_extractor.h in Headers */,
 				325A238326A7D0070024B13C /* fex_ctx_vector.h in Headers */,
 				325A23E526A7D0070024B13C /* decimate.h in Headers */,
-				325A238F26A7D0070024B13C /* timer.h in Headers */,
+				326387DE2A0B911900303B68 /* mkdirp.h in Headers */,
 				325A23A126A7D0070024B13C /* feature_name.h in Headers */,
 				325A23CD26A7D0070024B13C /* integer_adm.h in Headers */,
 				325A23E026A7D0070024B13C /* ansnr.h in Headers */,
@@ -671,6 +661,7 @@
 				325A25FC26A7F6850024B13C /* config.h in Headers */,
 				325A25FA26A7D0E00024B13C /* vcs_version.h in Headers */,
 				325A238C26A7D0070024B13C /* pdjson.h in Headers */,
+				326387DB2A0B911900303B68 /* luminance_tools.h in Headers */,
 				325A23DD26A7D0070024B13C /* ansnr_options.h in Headers */,
 				325A23A026A7D0070024B13C /* moment_options.h in Headers */,
 				325A23FC26A7D0070024B13C /* mem.h in Headers */,
@@ -791,8 +782,10 @@
 				325A23CA26A7D0070024B13C /* feature_name.c in Sources */,
 				325A23AC26A7D0070024B13C /* feature_extractor.c in Sources */,
 				325A23EE26A7D0070024B13C /* float_ms_ssim.c in Sources */,
+				326387DD2A0B911900303B68 /* luminance_tools.c in Sources */,
 				325A23EC26A7D0070024B13C /* convolve.c in Sources */,
 				325A23C926A7D0070024B13C /* convolution.c in Sources */,
+				326387DF2A0B911900303B68 /* null.c in Sources */,
 				325A23BA26A7D0070024B13C /* psnr_tools.c in Sources */,
 				325A23B526A7D0070024B13C /* moment.c in Sources */,
 				325A239A26A7D0070024B13C /* predict.c in Sources */,
@@ -808,10 +801,10 @@
 				325A23CE26A7D0070024B13C /* integer_motion.c in Sources */,
 				325A23F026A7D0070024B13C /* float_moment.c in Sources */,
 				325A23BE26A7D0070024B13C /* picture_copy.c in Sources */,
+				326387DC2A0B911900303B68 /* mkdirp.c in Sources */,
 				325A23CF26A7D0070024B13C /* float_motion.c in Sources */,
 				325A23FA26A7D0070024B13C /* vif.c in Sources */,
 				325A23BC26A7D0070024B13C /* integer_vif.c in Sources */,
-				325A237A26A7D0070024B13C /* darray.c in Sources */,
 				325A23E226A7D0070024B13C /* ms_ssim.c in Sources */,
 				325A23FE26A7D0070024B13C /* thread_pool.c in Sources */,
 				325A23AF26A7D0070024B13C /* ansnr_tools.c in Sources */,
@@ -823,7 +816,6 @@
 				325A239D26A7D0070024B13C /* compute_vmaf.c in Sources */,
 				325A23EB26A7D0070024B13C /* ssim_tools.c in Sources */,
 				325A23E326A7D0070024B13C /* math_utils.c in Sources */,
-				325A238826A7D0070024B13C /* cpu_info.c in Sources */,
 				325A23A426A7D0070024B13C /* integer_adm.c in Sources */,
 				325A23B826A7D0070024B13C /* integer_psnr.c in Sources */,
 				325A238526A7D0070024B13C /* mem.c in Sources */,
